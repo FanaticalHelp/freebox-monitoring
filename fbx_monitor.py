@@ -251,7 +251,7 @@ class MonitoringAgent:
         Get Switch status
         :return:
         """
-        return self.api.get("switch/status")
+        return self.api.get("switch/status/")
 
     def freeplugs(self):
         """
